@@ -67,7 +67,7 @@ do {
     switch (entrada) {
         case 1: // caso 1, ano e valor do salario -----------------------------------------------------
             console.log('\n');  
-            console.log('Listando o historico do salário minimo de 2010 a 2020.');
+            console.log('Listando o historico do salário minimo de 2010 a 2025.');
             for (let listaDeSalarios of salario) {
                 let anoSalario = listaDeSalarios.ano;
                 let valorSalario = listaDeSalarios.salario;
@@ -79,7 +79,7 @@ do {
             break;
         case 2: //caso 2 ano e valor da inflação -------------------------------------------------------
             console.log('\n');  
-            console.log('Listando o historico do índice IPCA de 2010 a 2020.');
+            console.log('Listando o historico do índice IPCA de 2010 a 2025.');
             for (let listaDeInflacao of inflacao_ipca) {
                 let anoInflacao = listaDeInflacao.ano;
                 let valorInflacao = listaDeInflacao.inflacao;
@@ -91,7 +91,7 @@ do {
             break;
         case 3: // caso 3, ano, valor do salario, taxa do crescimento salarial e valor da inflação ------
             console.log('\n');
-            console.log('Listando o crescimento salarial de 2010 a 2020.');
+            console.log('Listando o crescimento salarial de 2010 a 2025.');
             console.log('\n');
 
 // executa o primeiro item fora do loop -----------------------------------------------------------------
